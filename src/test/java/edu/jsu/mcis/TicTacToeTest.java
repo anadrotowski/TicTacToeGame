@@ -9,12 +9,11 @@ public class TicTacToeTest {
 		TicTacToeModel model = new TicTacToeModel ();
 		for(int row = 0; row <3; row++) {
 			for(int col = 0; col < 3; col++){
-				Mark m = model.getMark(row, col);
+				TicTacToeModel.Mark m = model.getMark(row, col);
 				assertEquals(TicTacToeModel.Mark.EMPTY, m);
 			}
 		}
 		
-		assertTrue(false);
 	}
 	
 	@Test
@@ -24,22 +23,28 @@ public class TicTacToeTest {
 		TicTacToeModel.Mark m = model.getMark(0,2);
 		assertEquals(TicTacToeModel.Mark.X, m);
 		
-		assertTrue(false);
 	}
 	
 	@Test
 	public void testMarkOInBottomLeftCorner() {
 		TicTacToeModel model = new TicTacToeModel();
-		model.setMark(2, 2);
-		TicTacToeModel.Mark m = model.getMark(2,2);
-		assertEquals(TicTacToeModel.Mark.O, m);
+		model.setMark(0,0);
 		
-		assertTrue(false);
+		model.setMark(2, 0);
+		TicTacToeModel.Mark m = model.getMark(2,0);
+		assertEquals(TicTacToeModel.Mark.O, m);
 	}
 	
 	@Test
 	public void testUnableToMarkOverExistingMark() {
-		assertTrue(false);
+		TicTacToeModel model = new TicTacToeModel();
+		model.setMark(0,0);
+		TicTacToeModel.Mark m = model.getMark(0,0);
+		
+		
+		model.setMark(0,0);
+		assertEquals(m, model.getMark(0,0));
+		
 	}
 	
 	@Test
@@ -49,11 +54,27 @@ public class TicTacToeTest {
 	
 	@Test
 	public void testGameIsWonByXHorizontallyAcrossTopRow() {
-		assertTrue(false);
+		TicTacToeModel model = new TicTacToeModel();
+		model.setMark(0,0);
+		model.setMark(1,1);
+		model.setMark(0,1);
+		model.setMark(1,2);
+		model.setMark(0,2);
+		assertEquals(TicTacToeModel.getStatus(), TicTacToeModel.gameStatus.XWIN);
 	}
 	
 	@Test
 	public void testGameIsOverByTieIfAllLocationsAreFilled() {
-		assertTrue(false);
+		TicTacToeModel model = new TicTacToeModel();
+		model.setMark(0,0);
+		model.setMark(0,1);
+		model.setMark(0,2);
+		model.setMark(1,0);
+		model.setMark(1,1);
+		model.setMark(1,2);
+		model.setMark(2,0);
+		model.setMark(2,1);
+		model.setMark(2,2);
+		assertEquals(TicTacToeModel.getStatus(), TicTacToeModel.gameStatus.DRAW);
 	}	
 }
