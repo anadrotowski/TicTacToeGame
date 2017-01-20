@@ -49,7 +49,9 @@ public class TicTacToeTest {
 	
 	@Test
 	public void testGameIsNotOverAfterTheFirstMark() {
-		assertTrue(false);
+		TicTacToeModel model = new TicTacToeModel();
+		model.setMark(0,0);
+		assertEquals(TicTacToeModel.getStatus(), TicTacToeModel.gameStatus.CONTINUE);
 	}
 	
 	@Test

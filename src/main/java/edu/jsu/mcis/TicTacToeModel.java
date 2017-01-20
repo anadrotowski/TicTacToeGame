@@ -33,19 +33,16 @@ public class TicTacToeModel {
 			{	
 				m = Mark.X;
 				board[row][col] = m;
-				
 			}
 			else
 			{
 				m = Mark.O;
 				board[row][col] = m;
-				
 			}
 			xTurn = !xTurn;
 			moveCounter++;
 			WinLoseDraw(row,col,m);
 		}
-		
 	}
 	
 	public static gameStatus getStatus() {
@@ -123,8 +120,5 @@ public class TicTacToeModel {
 			}
 		if(moveCounter == (board.length * board.length))
 			Status = gameStatus.DRAW;
-		
-		
-	}
-		
+	}	
 }
