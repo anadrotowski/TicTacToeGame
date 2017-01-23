@@ -1,0 +1,5 @@
+build/classes/*
+build/jacoco/*
+build/test-results/*
+build/tmp/*
+.gradle/*
