@@ -33,6 +33,7 @@ public class TicTacToeModel {
 			{	
 				m = Mark.X;
 				board[row][col] = m;
+				
 			}
 			else
 			{
@@ -54,16 +55,16 @@ public class TicTacToeModel {
 			{
 				if(board[row][i] != m)
 					break;
-				if(i == board.length - 1)
-				{
-					if(m == Mark.X)
+					if(i == board.length - 1)
 					{
-						Status = gameStatus.XWIN;
-					}
-					else 
-					{
-						Status = gameStatus.OWIN;
-					}
+						if(m == Mark.X)
+						{
+							Status = gameStatus.XWIN;
+						}
+						else
+						{
+							Status = gameStatus.OWIN;
+						}
 				}
 			}
 			

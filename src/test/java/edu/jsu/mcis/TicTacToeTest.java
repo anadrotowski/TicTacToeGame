@@ -12,8 +12,7 @@ public class TicTacToeTest {
 				TicTacToeModel.Mark m = model.getMark(row, col);
 				assertEquals(TicTacToeModel.Mark.EMPTY, m);
 			}
-		}
-		
+		}	
 	}
 	
 	@Test
@@ -22,14 +21,12 @@ public class TicTacToeTest {
 		model.setMark(0,2);
 		TicTacToeModel.Mark m = model.getMark(0,2);
 		assertEquals(TicTacToeModel.Mark.X, m);
-		
 	}
 	
 	@Test
 	public void testMarkOInBottomLeftCorner() {
 		TicTacToeModel model = new TicTacToeModel();
 		model.setMark(0,0);
-		
 		model.setMark(2, 0);
 		TicTacToeModel.Mark m = model.getMark(2,0);
 		assertEquals(TicTacToeModel.Mark.O, m);
@@ -40,11 +37,8 @@ public class TicTacToeTest {
 		TicTacToeModel model = new TicTacToeModel();
 		model.setMark(0,0);
 		TicTacToeModel.Mark m = model.getMark(0,0);
-		
-		
 		model.setMark(0,0);
 		assertEquals(m, model.getMark(0,0));
-		
 	}
 	
 	@Test

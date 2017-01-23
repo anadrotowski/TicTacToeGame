@@ -1,3 +1,12 @@
+buildscript {
+    dependencies {
+        classpath files(mkdir('build/classes/main'))
+    }
+}
+
+plugins {
+  id 'org.roboscratch.robot' version '0.1.1'
+}
 apply plugin: 'java'
 apply plugin: 'jacoco'
 
@@ -7,7 +16,7 @@ jar {
     manifest {
         attributes 'Implementation-Title': 'Tic Tac Toe', 
                    'Implementation-Version': version, 
-                   'Main-Class': 'edu.jsu.mcis.TicTacToe'
+                   'Main-Class': 'edu.jsu.mcis.TicTacToeGame'
     }
 }
 
@@ -44,3 +53,6 @@ if(hasProperty("Xlint:unchecked")) {
         options.compilerArgs << "-Xlint:unchecked" 
     }
 }
+
+runrobot.debugfile = 'debug.log'
+runrobot.dependsOn build
