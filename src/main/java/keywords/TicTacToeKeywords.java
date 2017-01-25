@@ -9,7 +9,6 @@ public class TicTacToeKeywords {
 	}
 	
 	public void MarkLocation(int row, int col) {
-		System.out.println(row + " " + col);
 		model.setMark(row, col);
 	}
 	

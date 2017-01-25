@@ -20,7 +20,7 @@ public class TicTacToeModel {
 		moveCounter = 0;
 		xTurn = true;
 		Status = gameStatus.CONTINUE;
-	}
+	};
 	
 	public Mark getMark(int row, int col) {
 		return board[row][col];
