@@ -1,9 +1,9 @@
 *** Settings ***
 Library           SwingLibrary
 
-*** User Keywords ***
+*** Keywords ***
 Start New Game
-    Start Application   edu.jsu.mcis.TicTacToeGame
+    Start Application   edu.jsu.mcis.TicTacToeModel
     Select Window       Tic Tac Toe
 
 Mark Location   [Arguments]     ${row}      ${col}

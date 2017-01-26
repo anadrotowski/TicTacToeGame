@@ -1,6 +1,7 @@
 buildscript {
     dependencies {
         classpath files(mkdir('build/classes/main'))
+		classpath group: "org.robotframework", name: "swinglibrary", version: "1.9.6"
     }
 }
 
@@ -11,12 +12,13 @@ apply plugin: 'java'
 apply plugin: 'jacoco'
 
 sourceCompatibility = 1.7
-version = '1.0'
+version = '3.0'
+
 jar {
     manifest {
         attributes 'Implementation-Title': 'Tic Tac Toe', 
                    'Implementation-Version': version, 
-                   'Main-Class': 'edu.jsu.mcis.TicTacToeGame'
+                   'Main-Class': 'edu.jsu.mcis.TicTacToeModel'
     }
 }
 

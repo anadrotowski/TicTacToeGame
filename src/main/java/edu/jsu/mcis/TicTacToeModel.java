@@ -121,5 +121,10 @@ public class TicTacToeModel {
 			}
 		if(moveCounter == (board.length * board.length))
 			Status = gameStatus.DRAW;
-	}	
+	}
+	
+	public static void main(String[] args) {
+		GameBoard frame = new GameBoard();
+	}
+	
 }
