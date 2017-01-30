@@ -11,6 +11,10 @@ public class GameBoard extends JFrame {
 	
 	private JFrame mainBoard = new JFrame("Tic Tac Toe");
 	
+	private JLabel winnerLabel;
+	
+	
+	
 	public GameBoard()
 	{
 		buttons = new JButton[3][3];
@@ -24,7 +28,7 @@ public class GameBoard extends JFrame {
 	
 	private void buildGameBoard()
 	{
-		mainBoard.setSize(300,300);
+		mainBoard.setSize(400,400);
 		mainBoard.setLayout(new GridLayout(3,3));
 		mainBoard.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -61,9 +65,9 @@ public class GameBoard extends JFrame {
 	
 	public void buttonPress(int row, int col)
 	{
-		JOptionPane optionPane = new JOptionPane();
-		
 		model.setMark(row, col);
+		
+		winnerLabel = new JLabel();
 		
 		if(model.getMark(row,col) == TicTacToeModel.Mark.X)
 		{
@@ -76,15 +80,18 @@ public class GameBoard extends JFrame {
 		
 		if(TicTacToeModel.getStatus() == TicTacToeModel.gameStatus.XWIN)
 		{
-				optionPane.showMessageDialog(optionPane, "X is the winner!", "Game Over", JOptionPane.INFORMATION_MESSAGE);
+				winnerLabel.setText("The winner is X");
+				mainBoard.add(winnerLabel);
 		}
 		else if(TicTacToeModel.getStatus() == TicTacToeModel.gameStatus.OWIN)
 		{
-				optionPane.showMessageDialog(optionPane, "O is the winner!", "Game Over", JOptionPane.INFORMATION_MESSAGE);
+				winnerLabel.setText("The winner is O");
+				mainBoard.add(winnerLabel);
 		}
 		if(TicTacToeModel.getStatus() == TicTacToeModel.gameStatus.DRAW)
 		{
-				optionPane.showMessageDialog(optionPane, "It's a tie!", "Game Over", JOptionPane.INFORMATION_MESSAGE);
+				winnerLabel.setText("The winner is TIE");
+				mainBoard.add(winnerLabel);
 		}
 	}
 }

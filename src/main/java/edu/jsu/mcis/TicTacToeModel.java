@@ -9,6 +9,7 @@ public class TicTacToeModel {
 	public int moveCounter;
 	
 	
+	
 	public TicTacToeModel() {
 		
 		board = new Mark[3][3];

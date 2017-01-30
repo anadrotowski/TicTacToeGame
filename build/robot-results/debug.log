@@ -1,213 +1,109 @@
 ==============================================================================
-20170125 16:16:44.238 - INFO - + START SUITE: Acceptancetest [ ]
+20170130 11:40:40.815 - INFO - + START SUITE: Acceptancetest [ ]
 ==============================================================================
-20170125 16:16:56.020 - INFO - +- START SUITE: Acceptancetest.TicTacToeGUITests [ ]
+20170130 11:40:52.593 - INFO - +- START SUITE: Acceptancetest.TicTacToeGUITests [ ]
 ==============================================================================
-20170125 16:16:56.038 - INFO - +-- START TEST: Win Diagonally as X [ ]
+20170130 11:40:52.608 - INFO - +-- START TEST: Win Diagonally as X [ ]
 ------------------------------------------------------------------------------
-20170125 16:16:56.050 - INFO - +--- START KW: Start New Game [ ]
-20170125 16:16:56.061 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToeModel ]
-20170125 16:16:57.104 - INFO - +---- END KW: SwingLibrary.Start Application (1043)
-20170125 16:16:57.120 - INFO - +---- START KW: SwingLibrary.Select Window [ Tic Tac Toe ]
-20170125 16:16:57.566 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Tic Tac Toe'" opened
-20170125 16:16:57.566 - DEBUG - Jemmy: Frame "Frame with name or title 'Tic Tac Toe'" has been opened in 0 milliseconds
-    javax.swing.JFrame[frame0,0,0,300x300,layout=java.awt.BorderLayout,title=Tic Tac Toe,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,284x261,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
-20170125 16:16:57.602 - INFO - +---- END KW: SwingLibrary.Select Window (480)
-20170125 16:16:57.604 - INFO - +--- END KW: Start New Game (1555)
+20170130 11:40:52.628 - INFO - +--- START KW: Start New Game [ ]
+20170130 11:40:52.638 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToeModel ]
+20170130 11:40:53.793 - INFO - +---- END KW: SwingLibrary.Start Application (1124)
+20170130 11:40:53.815 - INFO - +---- START KW: SwingLibrary.Select Window [ Tic Tac Toe ]
+20170130 11:40:54.146 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Tic Tac Toe'" opened
+20170130 11:40:54.146 - DEBUG - Jemmy: Frame "Frame with name or title 'Tic Tac Toe'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame0,0,0,500x500,layout=java.awt.BorderLayout,title=Tic Tac Toe,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,484x461,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20170130 11:40:54.178 - INFO - +---- END KW: SwingLibrary.Select Window (347)
+20170130 11:40:54.178 - INFO - +--- END KW: Start New Game (1552)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20170125 16:16:57.604 - INFO - +--- START KW: Mark Location [ 1 | 1 ]
-20170125 16:16:57.620 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
-20170125 16:16:57.651 - INFO - ${component} = Location11
-20170125 16:16:57.651 - INFO - +---- END KW: BuiltIn.Catenate (31)
-20170125 16:16:57.651 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
-20170125 16:16:57.796 - DEBUG - Jemmy: Waiting for "Location11" subcomponent
-20170125 16:16:57.799 - DEBUG - Jemmy: Start to wait action "Wait for "Location11" subcomponent to be displayed"
-20170125 16:16:57.805 - DEBUG - Jemmy: "Wait for "Location11" subcomponent to be displayed" action has been produced in 4 milliseconds with result 
-    : javax.swing.JButton[Location11,95,87,94x87,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@3902c204,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=,defaultCapable=true]
-20170125 16:16:57.881 - INFO - +---- END KW: SwingLibrary.Click On Component (227)
-20170125 16:16:57.888 - INFO - +--- END KW: Mark Location (281)
+20170130 11:40:54.193 - INFO - +--- START KW: Mark Location [ 1 | 1 ]
+20170130 11:40:54.213 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:54.231 - INFO - ${component} = Location11
+20170130 11:40:54.247 - INFO - +---- END KW: BuiltIn.Catenate (18)
+20170130 11:40:54.247 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
+20170130 11:40:54.363 - DEBUG - Jemmy: Waiting for "Location11" subcomponent
+20170130 11:40:54.363 - DEBUG - Jemmy: Start to wait action "Wait for "Location11" subcomponent to be displayed"
+20170130 11:40:54.378 - DEBUG - Jemmy: "Wait for "Location11" subcomponent to be displayed" action has been produced in 15 milliseconds with result 
+    : javax.swing.JButton[Location11,161,154,161x153,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@8eb0a3f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=,defaultCapable=true]
+20170130 11:40:54.432 - INFO - +---- END KW: SwingLibrary.Click On Component (169)
+20170130 11:40:54.432 - INFO - +--- END KW: Mark Location (239)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20170125 16:16:57.891 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
-20170125 16:16:57.903 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
-20170125 16:16:57.919 - INFO - ${component} = Location11
-20170125 16:16:57.924 - INFO - +---- END KW: BuiltIn.Catenate (20)
-20170125 16:16:57.928 - INFO - +---- START KW: SwingLibrary.Label Text Should Be [ ${component} | ${mark} ]
-20170125 16:16:57.995 - DEBUG - Jemmy: Waiting for "Location11" subcomponent
-20170125 16:16:57.996 - DEBUG - Jemmy: Start to wait action "Wait for "Location11" subcomponent to be displayed"
-20170125 16:17:08.004 - DEBUG - Jemmy: "Wait for "Location11" subcomponent to be displayed" action has not been produced in 10008 milliseconds
-20170125 16:17:08.089 - FAIL - Wait for "Location11" subcomponent to be displayed
-20170125 16:17:08.104 - DEBUG - java.lang.RuntimeException: 
-	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
-	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
-	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
-	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
-	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
-	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
-	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
-	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
-	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
-	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
-	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
-	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
-	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
-	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
-	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
-	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
-	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
-	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:141)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:632)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:615)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
-	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
-	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
-	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
-	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
-	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
-	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
-	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
-	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
-	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
-	at org.gradle.util.Swapper.swap(Swapper.java:38)
-	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
-	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
-	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
-	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
-	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
-	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-Caused by: org.netbeans.jemmy.TimeoutExpiredException: Wait for "Location11" subcomponent to be displayed
-	at org.netbeans.jemmy.Waiter.waitAction(Waiter.java:147)
-	at org.netbeans.jemmy.operators.ContainerOperator.waitSubComponent(ContainerOperator.java:298)
-	at org.netbeans.jemmy.operators.JLabelOperator.<init>(JLabelOperator.java:74)
-	at org.netbeans.jemmy.operators.JLabelOperator.<init>(JLabelOperator.java:86)
-	at org.robotframework.swing.label.LabelOperator.<init>(LabelOperator.java:10)
-	at org.robotframework.swing.label.LabelOperatorFactory.createOperatorByName(LabelOperatorFactory.java:30)
-	at org.robotframework.swing.label.LabelOperatorFactory.createOperatorByName(LabelOperatorFactory.java:24)
-	at org.robotframework.swing.factory.IdentifierParsingOperatorFactory.nameArgument(IdentifierParsingOperatorFactory.java:33)
-	at org.robotframework.swing.arguments.ArgumentParser.parseSwingArgument(ArgumentParser.java:51)
-	at org.robotframework.swing.arguments.ArgumentParser.parseArgument(ArgumentParser.java:35)
-	at org.robotframework.swing.factory.DefaultContextVerifyingOperatorFactory.parseArgument(DefaultContextVerifyingOperatorFactory.java:27)
-	at org.robotframework.swing.factory.IdentifierParsingOperatorFactory.createOperator(IdentifierParsingOperatorFactory.java:25)
-	at org.robotframework.swing.keyword.label.LabelKeywords.createOperator(LabelKeywords.java:74)
-	at org.robotframework.swing.keyword.label.LabelKeywords.labelTextShouldBe(LabelKeywords.java:69)
-	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
-	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
-	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
-	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
-	... 291 more
-20170125 16:17:08.120 - INFO - +---- END KW: SwingLibrary.Label Text Should Be (10177)
-20170125 16:17:08.120 - INFO - +--- END KW: Check Location (10230)
-------------------------------------------------------------------------------
-20170125 16:17:08.135 - INFO - +-- END TEST: Win Diagonally as X (12086)
-------------------------------------------------------------------------------
-20170125 16:17:08.151 - INFO - +-- START TEST: Win Horizontally as O [ ]
-------------------------------------------------------------------------------
-20170125 16:17:08.167 - INFO - +--- START KW: Start New Game [ ]
-20170125 16:17:08.167 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToeModel ]
-20170125 16:17:08.265 - INFO - +---- END KW: SwingLibrary.Start Application (98)
-20170125 16:17:08.265 - INFO - +---- START KW: SwingLibrary.Select Window [ Tic Tac Toe ]
-20170125 16:17:08.281 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Tic Tac Toe'" opened
-20170125 16:17:08.328 - DEBUG - Jemmy: Frame "Frame with name or title 'Tic Tac Toe'" has been opened in 0 milliseconds
-    javax.swing.JFrame[frame0,0,0,300x300,invalid,layout=java.awt.BorderLayout,title=Tic Tac Toe,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,284x261,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
-20170125 16:17:08.349 - INFO - +---- END KW: SwingLibrary.Select Window (84)
-20170125 16:17:08.365 - INFO - +--- END KW: Start New Game (182)
+20170130 11:40:54.432 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
+20170130 11:40:54.463 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:54.478 - INFO - ${component} = Location11
+20170130 11:40:54.494 - INFO - +---- END KW: BuiltIn.Catenate (15)
+20170130 11:40:54.494 - INFO - +--- END KW: Check Location (62)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20170125 16:17:08.365 - INFO - +--- START KW: Mark Location [ 1 | 1 ]
-20170125 16:17:08.380 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
-20170125 16:17:08.396 - INFO - ${component} = Location11
-20170125 16:17:08.396 - INFO - +---- END KW: BuiltIn.Catenate (16)
-20170125 16:17:08.411 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
-20170125 16:17:08.411 - DEBUG - Jemmy: Waiting for "Location11" subcomponent
-20170125 16:17:08.411 - DEBUG - Jemmy: Start to wait action "Wait for "Location11" subcomponent to be displayed"
-20170125 16:17:08.458 - DEBUG - Jemmy: "Wait for "Location11" subcomponent to be displayed" action has been produced in 45 milliseconds with result 
-    : javax.swing.JButton[Location11,95,87,94x87,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@3902c204,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=X,defaultCapable=true]
-20170125 16:17:08.503 - INFO - +---- END KW: SwingLibrary.Click On Component (90)
-20170125 16:17:08.508 - INFO - +--- END KW: Mark Location (141)
+20170130 11:40:54.494 - INFO - +--- START KW: Mark Location [ 0 | 1 ]
+20170130 11:40:54.516 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:54.532 - INFO - ${component} = Location01
+20170130 11:40:54.548 - INFO - +---- END KW: BuiltIn.Catenate (32)
+20170130 11:40:54.548 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
+20170130 11:40:54.563 - DEBUG - Jemmy: Waiting for "Location01" subcomponent
+20170130 11:40:54.563 - DEBUG - Jemmy: Start to wait action "Wait for "Location01" subcomponent to be displayed"
+20170130 11:40:54.563 - DEBUG - Jemmy: "Wait for "Location01" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JButton[Location01,161,1,161x153,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@8eb0a3f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=,defaultCapable=true]
+20170130 11:40:54.615 - INFO - +---- END KW: SwingLibrary.Click On Component (63)
+20170130 11:40:54.625 - INFO - +--- END KW: Mark Location (128)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20170125 16:17:08.516 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
-20170125 16:17:08.530 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
-20170125 16:17:08.554 - INFO - ${component} = Location11
-20170125 16:17:08.560 - INFO - +---- END KW: BuiltIn.Catenate (28)
-20170125 16:17:08.565 - INFO - +---- START KW: SwingLibrary.Label Text Should Be [ ${component} | ${mark} ]
+20170130 11:40:54.629 - INFO - +--- START KW: Check Location [ 0 | 1 | O ]
+20170130 11:40:54.644 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:54.663 - INFO - ${component} = Location01
+20170130 11:40:54.669 - INFO - +---- END KW: BuiltIn.Catenate (23)
+20170130 11:40:54.675 - INFO - +--- END KW: Check Location (44)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170130 11:40:54.679 - INFO - +--- START KW: Mark Location [ 0 | 0 ]
+20170130 11:40:54.690 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:54.709 - INFO - ${component} = Location00
+20170130 11:40:54.716 - INFO - +---- END KW: BuiltIn.Catenate (23)
+20170130 11:40:54.719 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
+20170130 11:40:54.730 - DEBUG - Jemmy: Waiting for "Location00" subcomponent
+20170130 11:40:54.730 - DEBUG - Jemmy: Start to wait action "Wait for "Location00" subcomponent to be displayed"
+20170130 11:40:54.736 - DEBUG - Jemmy: "Wait for "Location00" subcomponent to be displayed" action has been produced in 4 milliseconds with result 
+    : javax.swing.JButton[Location00,0,1,161x153,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@8eb0a3f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=,defaultCapable=true]
+20170130 11:40:54.775 - INFO - +---- END KW: SwingLibrary.Click On Component (55)
+20170130 11:40:54.781 - INFO - +--- END KW: Mark Location (101)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170130 11:40:54.785 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
+20170130 11:40:54.798 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:54.819 - INFO - ${component} = Location00
+20170130 11:40:54.825 - INFO - +---- END KW: BuiltIn.Catenate (25)
+20170130 11:40:54.831 - INFO - +--- END KW: Check Location (44)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170130 11:40:54.835 - INFO - +--- START KW: Mark Location [ 0 | 2 ]
+20170130 11:40:54.846 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:54.867 - INFO - ${component} = Location02
+20170130 11:40:54.876 - INFO - +---- END KW: BuiltIn.Catenate (26)
+20170130 11:40:54.879 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
+20170130 11:40:54.888 - DEBUG - Jemmy: Waiting for "Location02" subcomponent
+20170130 11:40:54.889 - DEBUG - Jemmy: Start to wait action "Wait for "Location02" subcomponent to be displayed"
+20170130 11:40:54.894 - DEBUG - Jemmy: "Wait for "Location02" subcomponent to be displayed" action has been produced in 3 milliseconds with result 
+    : javax.swing.JButton[Location02,322,1,161x153,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@8eb0a3f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=,defaultCapable=true]
+20170130 11:40:54.922 - INFO - +---- END KW: SwingLibrary.Click On Component (43)
+20170130 11:40:54.938 - INFO - +--- END KW: Mark Location (88)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170130 11:40:54.938 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
+20170130 11:40:54.954 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:54.969 - INFO - ${component} = Location02
+20170130 11:40:54.969 - INFO - +---- END KW: BuiltIn.Catenate (15)
+20170130 11:40:54.985 - INFO - +--- END KW: Check Location (31)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170130 11:40:54.985 - INFO - +--- START KW: Mark Location [ 2 | 2 ]
+20170130 11:40:54.985 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:55.007 - INFO - ${component} = Location22
+20170130 11:40:55.007 - INFO - +---- END KW: BuiltIn.Catenate (22)
+20170130 11:40:55.023 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
+20170130 11:40:55.023 - DEBUG - Jemmy: Waiting for "Location22" subcomponent
+20170130 11:40:55.023 - DEBUG - Jemmy: Start to wait action "Wait for "Location22" subcomponent to be displayed"
+20170130 11:40:55.023 - DEBUG - Jemmy: "Wait for "Location22" subcomponent to be displayed" action has been produced in 0 milliseconds with result 
+    : javax.swing.JButton[Location22,322,307,161x153,alignmentX=0.0,alignmentY=0.5,border=javax.swing.plaf.BorderUIResource$CompoundBorderUIResource@8eb0a3f,flags=296,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=javax.swing.plaf.InsetsUIResource[top=2,left=14,bottom=2,right=14],paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=true,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=,defaultCapable=true]
+20170130 11:40:55.070 - INFO - +---- END KW: SwingLibrary.Click On Component (47)
+20170130 11:40:55.085 - INFO - +--- END KW: Mark Location (85)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170130 11:40:55.085 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
+20170130 11:40:55.103 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20170130 11:40:55.139 - INFO - ${component} = Location22
+20170130 11:40:55.139 - INFO - +---- END KW: BuiltIn.Catenate (37)
+20170130 11:40:55.139 - INFO - +--- END KW: Check Location (54)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20170130 11:40:55.154 - INFO - +--- START KW: Winner Should Be [ X ]
+20170130 11:40:55.154 - INFO - +---- START KW: SwingLibrary.Get Label Content [ winnerLabel ]
