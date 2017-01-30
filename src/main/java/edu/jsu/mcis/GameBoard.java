@@ -28,8 +28,8 @@ public class GameBoard extends JFrame {
 	
 	private void buildGameBoard()
 	{
-		mainBoard.setSize(400,400);
-		mainBoard.setLayout(new GridLayout(3,3));
+		mainBoard.setSize(500,400);
+		mainBoard.setLayout(new GridLayout(4,3));
 		mainBoard.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		for(int row = 0; row < 3; row++)
@@ -43,6 +43,9 @@ public class GameBoard extends JFrame {
 				mainBoard.add(buttons[row][col]);
 			}
 		}
+		winnerLabel = new JLabel();
+		winnerLabel.setName("winnerLabel");
+		
 		mainBoard.setVisible(true);
 	}
 	
@@ -67,8 +70,6 @@ public class GameBoard extends JFrame {
 	{
 		model.setMark(row, col);
 		
-		winnerLabel = new JLabel();
-		
 		if(model.getMark(row,col) == TicTacToeModel.Mark.X)
 		{
 			buttons[row][col].setLabel("X");
@@ -81,7 +82,7 @@ public class GameBoard extends JFrame {
 		if(TicTacToeModel.getStatus() == TicTacToeModel.gameStatus.XWIN)
 		{
 				winnerLabel.setText("The winner is X");
-				mainBoard.add(winnerLabel);
+				mainBoard.add(winnerLabel, -1);
 		}
 		else if(TicTacToeModel.getStatus() == TicTacToeModel.gameStatus.OWIN)
 		{
